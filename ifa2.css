@@ -1,0 +1,57 @@
+style{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+article {
+    flex: 1;
+}
+nav, aside {
+    flex: 0 0 20vw;
+    padding: 150px;
+}
+nav {
+    background: pink;
+}
+aside {
+    background: aqua;
+}
+header, footer {
+    background: khaki;
+    height: 10vh;
+}
+header, footer, article, nav, aside {
+    padding: 10px;
+}
+article, aside {
+    height: 60vh;
+}
+.big-container {
+    display: flex;
+}
+.colom {
+    display: flex;
+}
+#ifah {
+    margin: 30px;
+}
+#annisa {
+    margin: 10px;
+}
+#adiba {
+    margin: 20px;
+}
+#ale {
+    margin: 10px;
+}
